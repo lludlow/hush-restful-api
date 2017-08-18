@@ -95,7 +95,7 @@ _.each(commands, (value, cmd) => {
 
     server.route({
         method: 'GET',
-        path: '/aos/' + changeCase.snakeCase(cmd),
+        path: '/api/' + changeCase.snakeCase(cmd),
         config: config
     });
 });
