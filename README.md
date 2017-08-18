@@ -88,8 +88,8 @@ You need to have a `hushd` installation that the API can talk to.
 
 
 ```
-git clone https://github.com/madbuda/hush-api.git
-cd hush-api
+git clone https://github.com/madbuda/hush-restful-api.git
+cd hush-restful-api
 npm install
 cp .env.example .env
 ```
